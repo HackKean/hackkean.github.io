@@ -1,14 +1,14 @@
 # hackkean.org
 hackkean website
 
-Local setup
+### Local setup
 
-Clone
+1. Clone
 
-In that directory, create a webserver, e.g.
+2. In that directory, create a webserver, e.g.
 
-python -m SimpleHTTPServer
+  `python -m SimpleHTTPServer`
 
-If you want to livereload changes, I suggest using livereload
+  If you want to livereload changes, I suggest using [livereload](https://github.com/lepture/python-livereload)
 
-See http://localhost:8000 ( localhost:35729 if you're using livereload)
+3. See [http://localhost:8000](http://localhost:8000) ( [localhost:35729](http://localhost:35729) if you're using livereload)
