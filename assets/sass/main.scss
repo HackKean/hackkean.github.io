@@ -1,13 +1,26 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import url("font-awesome.min.css");
+@import url("assets/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
 /*
 Custom stuff
 */
 
+#hero {
+    background: url("images/pic01.jpg") 55% 20% no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 .right {
 	text-align: right !important;
 }
