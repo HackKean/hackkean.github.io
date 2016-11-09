@@ -8,6 +8,6 @@
 }
 
 /* hide video if on mobile */
-@media screen and (max-width: 680px) {
+@media screen {
   .video { display : none; }
 }
