@@ -8,6 +8,7 @@
 }
 
 /* hide video if on mobile */
-@media screen {
-  .video { display : none; }
+video::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
 }
