@@ -1,62 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel='shortcut icon' type='image/x-icon' href='images/cougar.png' />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Hackathon,New Jersey,Union,Kean,Kean University">
-    <meta name="description" content="A Hackathon for students and by students, held at Kean University in Union, NJ April 1st and 2nd 2017">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-        HackKean 2017 — April 1-2, Kean University
-    </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/email_signup.css">
-  </html>
+  <meta charset="utf-8">
+  <title>HackKean III</title>
+  <!-- site info -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> HackKean III, April 1-2 at Kean University </title>
+  <meta name="description" content="HackKean at Kean University">
+  <meta name="keywords" content="HackKean, Kean Hacks, Kean University, hackathon">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"/ >
 
-    <meta property="og:title" content="HackKean 2017">
-    <meta property="og:url" content="https://hackkean.org">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="HackKean 2017">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="HackKean 2017">
-    <meta name="twitter:creator" content="@hackKean">
-    <meta name="twitter:domain" content="hackkean.org">
-    <meta name="twitter:site" content="@HackKean">
-    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <!-- facebook -->
+  <meta property="og:title" content="HackKean III">
+  <meta property="og:url" content="hackkean.org">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HackKean III">
+  <meta property="og:description" content="Join us from April 1-2 at Kean University and build something amazing! Whether you’re a seasoned developer or designer, or just starting out as a beginner, HackKean has something to offer you.">
+  <meta property="og:image" content="">
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="hackkean.org">
+  <meta name="twitter:title" content="HackKean III">
+  <meta name="twitter:description" content="Join us from April 1-2 at Kean University and build something amazing! Whether you’re a seasoned developer or designer, or just starting out as a beginner, HackKean has something to offer you.">
+  <meta name="twitter:creator" content="@hackkean">
+  <meta name="twitter:site" content="@hackkean">
+  <meta name="twitter:image" content="">
+
+  <!-- stylesheets -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/theme-orange.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/font-roboto.css" rel="stylesheet" type="text/css">
+  <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet"> 
+  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;right:50px;top:0;width:2%;z-index:10000" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
 </head>
 
 <body>
-    <video playsinline autoplay muted loop>
-        <source src="assets/vids/kean.mp4" type="video/mp4">
-    </video>
-    <div class="email-container">
-        <section id="hero">
-            <div class="center-float">
-                <img class="cougar-img" src="images/cougar.png">
-                <h1><a id="hack">HACK//</a><a id="kean">KEAN III</a></h1>
-                <form id="email-form" action="//hackkean.us14.list-manage.com/subscribe/post?u=0c87cb30015a821b94bd28888&amp;id=b68b4970d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <input type="text" value="" name="EMAIL" placeholder="enter your email to stay updated!" class="required email" id="email-input">
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                        <input type="text" name="b_0c87cb30015a821b94bd28888_b68b4970d4" tabindex="-1" value="">
-                    </div>
-                    <input type="submit" id="email-submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                </form>
-                <div class="four-dots">
-                    <a class="dot" target="_blank" href="http://facebook.com/hackkean"><i class="fa fa-facebook"></i></a>
-                    <a class="dot" target="_blank" href="http://twitter.com/hackkean"><i class="fa fa-twitter"></i></a>
-                    <a class="dot" href="mailto:hello@hackkean.org"><i class="fa fa-envelope"></i></a>
-                </div>
-                <div id="contact-us">
-                    <p>april 1-2, 2017 @ Kean University (Union, NJ)</p>
-                    <p>questions? contact us! <a href="mailto:hello@hackkean.org">hello@hackkean.org</a></p>
-                </div>
-            </div>
-        </section>
-    </div>
-</body>
 
-</html>
+  <div class="main-container">
+    <section class="cover fullscreen image-slider slider-arrow-controls controls-inside parallax overlay image-bg">
+      <div id="particles-js"></div>
+      <div class="background-image-holder">
+        <img alt="image" class="background-image" src="img/dot_bg.jpg">
+      </div>
+      <div class="container v-align main-content">
+        <div class="row text-center">
+          <img alt="Logo" class="logo" src="img/banner.png">
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2">
+            <h3 class="brand muli-regular">Coming together April 1st-2nd, 2017.</h3>
+          </div>
+        </div>
+        <div class="row text-center buttons">
+          <a class="btn btn-lg btn-filled" href="http://eepurl.com/cCfm9v">Subscribe</a>
+          <a class="btn btn-lg" href="mailto:hello@hackkean.org?subject=Partnership%20Inquiry">Company Sponsorship</a>
+        </div>
+        <div class="row social_info text-center">
+          <a href="https://www.facebook.com/hackkean" target="_blank" class="social_icon"><i class="ti-facebook"></i></a>
+          <a href="https://twitter.com/hackkean" target="_blank" class="social_icon"><i class="ti-twitter-alt"></i></a>
+          <h6 class="muli-regular mb32 acm">Hosted by the <a href="http://keanacm.com" target="_blank">Kean ACM</a></h6>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h3 class="teal mb40 mb-xs-24 muli-regular">Kean University's annual hackathon</h3>
+            <p class="lead">
+              Join us for 24 hours as we build apps, hardware and more at the beautiful Kean University campus. We will provide a comfortable and enlivening atmosphere for you to build out progressive, innovative, and crazy ideas.
+              <p class="lead">
+                At HackKean, you’ll meet fellow hackers, learn new technologies, and hone your skills alongside seasoned mentors. We'll have free food, swag, workshops, mentorship, prizes, games, and more. Don’t have a team, or even an idea? Don’t worry! We’ll give you the tools to build something incredible.
+                <p class="lead">
+                  Whether you're a seasoned hackathon goer or just getting started — we’d love to see you here!
+                </p>
+              </div>
+            </div>
+            <div class="row numbers-row">
+              <div class="col-sm-2 col-sm-offset-3 col-md-2 col-md-offset-1 text-right text-center-xs">
+                <h1 class="large mb8">24</h1>
+                <h6 class="uppercase text-right-desktop">hours</h6>
+              </div>
+              <div class="col-md-2 text-center hidden-sm hidden-xs">
+                <i class="ti-infinite icon icon-lg navy mt8 mt-xs-0"></i>
+              </div>
+              <div class="col-sm-2 col-md-2 text-center-xs">
+                <h1 class="large mb8 text-center">+100</h1>
+                <h6 class="uppercase text-center">hackers</h6>
+              </div>
+              <div class="col-md-2 text-center hidden-sm hidden-xs">
+                <i class="ti-infinite icon icon-lg navy mt8 mt-xs-0"></i>
+              </div>
+              <div class="col-sm-2 col-md-2 text-center-xs">
+                <h1 class="large mb8">3000+</h1>
+                <h6 class="uppercase text-left-desktop">Lines of code</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center buttons">
+                  <a class="btn btn-lg" href="gallery/index.html">Gallery</a>
+                </div>
+        </section>
+
+        <section class="bg-dark navy-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1 text-center">
+                <h3 class="teal mb40 mb-xs-24 muli-regular">Schedule</h3>
+                <p class="lead tracks-description">
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-4 col-xs-10 col-xs-offset-1">
+                <table class="schedule-table">
+                  <tr class="schedule-row">
+                    <td class="time">10am</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Registration</p>
+                        <p class="schedule-subtitle">check-in @ NAAB 1st Floor</p>
+                      </div>
+                      <div>
+                        <p class="schedule-title">Breakfast</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">1130-12pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Opening Ceremony</p>
+                        <p class="schedule-subtitle">kicking things off!</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">12pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Hacking begins</p>
+                        <p class="schedule-subtitle">ready, set, hack!</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">1pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Lunch</p>
+                      </div>
+
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">2-4pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Workshops</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">6-7pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Dinner</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">8pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Smash Bros. Tournament</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">9-10pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Games</p>
+                        <p class="schedule-subtitle">take a break from hacking!</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">12am</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Midnight snack</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">8am</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Breakfast</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">12pm</td>
+                    <td class="schedule-detail">Hacking Ends</td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">1230pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Devpost Submissions Due</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">1230pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Presentations</p>
+                        <p class="schedule-subtitle">demo your hack!</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">130pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">Closing ceremony</p>
+                        <p class="schedule-subtitle">awards & fun</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="schedule-row">
+                    <td class="time">2pm</td>
+                    <td class="schedule-detail">
+                      <div>
+                        <p class="schedule-title">End of HackKean</p>
+                        <p class="schedule-subtitle">goodbye!</p>
+                      </div>
+                    </tr>
+                  </td>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h3 class="teal mb40 mb-xs-24 muli-regular">FAQ</h4>
+                <p class="lead mb64">
+                  Got questions about HackKean? Read on.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <ul class="accordion accordion-2 one-open">
+                  <li>
+                    <div class="title">
+                      <h4 class="mb0 muli-regular">What's a hackathon?</h4>
+                    </div>
+                    <div class="content">
+                      <p>
+                        It’s a grand gathering of people to make their ideas come to life. Think out of the box, try new technologies, ask questions, make mistakes, discover a new language, and have fun!
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">Who, When, & Where?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          HackKean III will run for 24 hours on April 1st & 2nd at Kean University's North Ave Academic Building, open to all students! (if you are under 18, we'll need parent/guardian consent form)
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">How do I sign up?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Interested? Registration's open! Apply <a class="navy" href="" target="_blank">here</a> to participate in HackKean III.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">How's parking & travel reimbursement?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Unfortunately, we currently cannot offer travel reimbursements to hackers. Parking is available in front of North Ave Academic Building (white lines)
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">What kind of project can I work on?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Whatever you'd like. Software, hardware, design, music, art, animation — take your pick. In addition to traditional prizing for top projects, we'll be awarding prizes to best projects in design, IoT, and more.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">Teams?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Teams should be groups of up to 4 students. You can also work alone, but we encourage collaborating with the other great minds at HackKean.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">Do I need to have a finished project by the end?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Your goal should be to have a finished or almost complete project by Sunday. However, HackKean is ultimately a learning experience, so don't sweat it too much if you can't finish.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">I haven't been to a hackthon before...?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          That’s absolutely fine! We encourage beginners to join us. <a class="navy" href="mailto:hello@hackkean.org" target="_blank">Hit us up</a> if you've got any questions not answered here.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">What should I bring?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Whatever you need to create. Hardware, computers, machines, and whatever else. Don't forget hygeine. We'll be providing some hardware first-come, first-served.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">What shouldn't I bring?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          A bad attitude. Come with an open mind & get ready to build.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">I'm not a college student. Can I participate?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          We're open to high school students! (parent/guardian must sign waiver)
+
+                          In the industry? If you're interested in being a mentor, <a class="navy" href="mailto:hello@hackkean.org">drop us a line</a>.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="mb0 muli-regular">How can I get in touch?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          Have a question not answered here? Shoot us an <a class="navy" href="mailto:hello@hackkean.org" target="_blank">email</a>, a message on <a class="navy" href="http://facebook.com/hackkean" target="_blank">Facebook</a>, or a <a class="navy" href="http://twitter.com/hackkean" target="_blank">a DM</a>.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="title">
+                        <h4 class="inline-block mb0 muli-regular">What is your code of conduct?</h4>
+                      </div>
+                      <div class="content">
+                        <p>
+                          View our Code of Conduct, set forth by Major League Hacking, <a class="navy" target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a>.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+
+            </div>
+
+          </section>
+
+          <section class="smoke-bg">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                  <h3 class="teal mb40 mb-xs-24 muli-regular">Sponsored by</h3>
+                  <p class="lead">
+                    HackKean wouldn't be possible without the incredible support of our sponsors and partners.
+                  </p>
+                  <div class="row text-center buttons sponsor-buttons">
+                    <a href="mailto:hello@hackkean.org?subject=Partnership%20Inquiry" target="_blank" class="btn btn-lg btn-filled btn-purple-filled">Sponsor Us</a>
+                    <a href="" class="btn btn-lg btn-purple">Learn More</a>
+                  </div>
+
+              <!--<div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <a href="https://www.statefarm.com/" target="_blank"><img style="width: 200px;" src="img/sponsor-statefarm.png" alt=""></a>
+                </div>
+              </div>-->
+
+              <div class="row">
+                <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4">
+                  <a href="https://mlh.io/" target="_blank"><img style="width: 200px;" src="png/sponsor-mlh.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="image-square right white-bg">
+        <div class="col-md-6 image">
+          <div class="background-image-holder">
+            <img alt="image" class="background-image" src="img/steps.png">
+          </div>
+        </div>
+        <div class="col-md-6 content">
+          <h3 class="muli-regular">Get inspired</h3>
+          <p class="lead">
+            This is your weekend to innovate with a stage and we'll throw in swag, food, and mentors to keep you going. At Kean University's state-of-the-art <a class="navy" href="https://www.google.com/maps/place/North+Avenue+Academic+Building/@40.676467,-74.2296493,18z/data=!3m1!4b1!4m5!3m4!1s0x89c3ad50ba7d4799:0xb8c367e358a39788!8m2!3d40.676465!4d-74.228555" target="_blank">North Ave Academic Building (NAAB)</a>, you'll have the perfect environment to get inspired.
+          </p>
+        </div>
+      </section>
+
+      <section class="image-bg bg-dark parallax overlay pt120 pb120">
+        <div class="background-image-holder">
+          <img alt="Background Image" class="background-image" src="img/building.png">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h3 class="muli-regular">24 hours of creativity.</h2>
+                <p class="cta-subhead lead mb40">Let there be hacking!</p>
+                <a class="btn btn-lg btn-filled" href="">Apply</a>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <footer class="footer-2 bg-dark text-center-xs navy-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <a href="/"><img class="image-xxs fade-half" alt="Pic" src="img/logo.png"></a>
+              </div>
+
+              <div class="col-sm-4 text-center">
+                <span class="fade-half footer-text">
+                  <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Major League Hacking's Code of Conduct</a>
+                </span>
+              </div>
+
+              <div class="col-sm-4 text-right text-center-xs">
+                <ul class="list-inline social-list">
+                  <li><a href="http://facebook.com/hackkean"><i class="ti-facebook"></i></a></li>
+                  <li><a href="http://twitter.com/hackkean"><i class="ti-twitter-alt"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/flexslider.min.js"></script>
+      <script src="js/parallax.js"></script>
+      <script src="js/particles.js"></script>
+      <script src="js/scripts.js"></script>
+      <script src="js/app.js"></script>
+    </body>
+    </html>
