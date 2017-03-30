@@ -6,7 +6,7 @@ App.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
   
     .state('home', {
-        url: '/home',
+        url: '/',
         templateUrl: 'home/index.html'
     })
     .state('schedule', {
