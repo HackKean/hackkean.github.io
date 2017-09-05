@@ -16,4 +16,4 @@ hackkean website
 ### NOTES & WARNINGS
  - *WARNING* adding large binary files will make this git repo very large very fast and it will burn up ram like crazy.
  - *NOTE* unless otherwise stated on github's pages website [do not add lfs files](https://github.com/github/git-lfs/issues/791) and expect them to be accessable
-
+ - *NOTE* if you are the new hackkean coordinator and do not have access to this repository feel free to email delucaga [at] kean. I should respond within a day.
