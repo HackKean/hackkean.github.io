@@ -53,7 +53,7 @@ h3.brand {
 
 .lead {
   font-family: 'Open Sans';
-  color: #293247;
+  color: #FFFAFC;
 }
 
 .bg-dark .lead {
@@ -89,11 +89,11 @@ h3.brand {
 }
 
 .btn-filled {
-  background-color: #8da1cd;
+  background-color: #373f51;
 }
 
 .image-bg .btn.btn-filled, .image-bg .btn-filled:visited {
-  border-color: #8da1cd;
+  border-color: #373f51;
 }
 
 .acm, .social_info {
@@ -228,7 +228,7 @@ h3.brand {
   left: 0;
   bottom: 0;
   z-index: 999;
-  background-color: #373f51;
+  background-color: #FFFAFC;
 }
 
 .main-content {
@@ -333,4 +333,10 @@ h3.brand {
   color: white;
   padding-right: 35px;
   padding-bottom: 20px;
+}
+
+/* section properties */
+.about-hk {
+  background-color: #373f51;
+  color: #FFFAFC;
 }
