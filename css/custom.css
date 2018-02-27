@@ -160,6 +160,10 @@ h3.brand {
   background-color: white !important;
 }
 
+.white-text {
+  color: #fffafc;
+}
+
 .tracks-description {
   margin-top: -25px !important;
   margin-bottom: 50px;
