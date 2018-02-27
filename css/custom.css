@@ -145,7 +145,7 @@ h3.brand {
 }
 
 .navy {
-  color: #293247 !important;
+  color: #293247; !important;
 }
 
 .navy-bg {
@@ -344,3 +344,4 @@ h3.brand {
   background-color: #373f51;
   color: #FFFAFC;
 }
+

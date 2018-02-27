@@ -447,7 +447,7 @@ a {
 }
 .image-bg a,
 .bg-primary a {
-  color: #fff;
+  color: #f2a71e;
 }
 .image-bg a:hover,
 .bg-primary a:hover {
@@ -3624,7 +3624,7 @@ img {
 .cover h4,
 .cover h5,
 .cover h6 {
-  color: #ffffff;
+  color: #F2A71E;
 }
 .cover p,
 .cover span,
