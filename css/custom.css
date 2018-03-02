@@ -53,7 +53,6 @@ h3.brand {
 
 .lead {
   font-family: 'Open Sans';
-  color: #FFFAFC;
 }
 
 .bg-dark .lead {
@@ -112,10 +111,6 @@ h3.brand {
   margin-top: 30px;
 }
 
-.numbers-row h1, h2, h3, h4, h5, h6 {
-  color: #293247;
-}
-
 .v-align {
   position: relative !important;
   transform: translate3d(0, -50%, 0) !important;
@@ -161,7 +156,7 @@ h3.brand {
 }
 
 .white-text {
-  color: #fffafc;
+  color: #FFFAFC;
 }
 
 .tracks-description {

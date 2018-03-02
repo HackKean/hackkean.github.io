@@ -451,7 +451,7 @@ a {
 }
 .image-bg a:hover,
 .bg-primary a:hover {
-  color: #fff;
+  color: #f05d5e;
   opacity: .9;
 }
 .bg-light a {
