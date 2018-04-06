@@ -201,7 +201,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .page-content .current { border-left: 5px solid #cc0000; padding-left: 20px; margin-left: -20px; }
 
 /** Sidebar */
-.sidebar-left { position: fixed; top: 0; left: 0; background-color: #113B51; width: 360px; height: 100%; padding: 80px 0; font-family: Inconsolata; }
+.sidebar-left { position: fixed; top: 0; left: 0; background-color: #808e9b; width: 360px; height: 100%; padding: 80px 0; font-family: Inconsolata; }
 
 .sidebar-left .logo { text-align: center; }
 
@@ -209,7 +209,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .sidebar-left .title h1 { margin: 0 0 5px; font-size: 32px; }
 .sidebar-left .title h4 { font-size: 14.5px; }
 
-.sidebar-left .links a { padding: 10px; display: block; text-align: center; margin: 10px 0; font-size: 20px; color: #828282; }
+.sidebar-left .links a { padding: 10px; display: block; text-align: center; margin: 10px 0; font-size: 20px; color: #ffa801; }
 .sidebar-left .links a:hover { color: #e8e8e8; }
 .sidebar-left .links .selected { color: #e8e8e8; }
 
