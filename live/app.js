@@ -21,10 +21,10 @@ App.config(function($stateProvider, $urlRouterProvider) {
         url: '/judging',
         templateUrl: 'judging/index.html'
     })
-    .state('resources', {
+    /*.state('resources', {
         url: '/resources',
         templateUrl: 'resources/index.html'
-    });
+    });*/
 });
 App.run(function($rootScope, $templateCache) {
    $rootScope.$on('$viewContentLoaded', function() {
