@@ -1,0 +1,45 @@
+<html>
+  
+  <head>
+  <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+  <script src="app.js"></script>
+  <!-- Meta -->
+  <title>HackKean IV Live</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" href="../img/hackkean18.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/dayof.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+
+  <body ng-app="App">
+
+    <aside class="sidebar-left">
+  <div class="logo">
+      <img src="../img/hackkean18.png" height="200" width="200" />
+    
+  </div>
+    <div class="links">
+      <a name="home" ui-sref="home">Event Info</a>
+      <a name="schedule" ui-sref="schedule">Schedule</a>
+      <a name="mentors" ui-sref="mentors">Mentors</a>
+      <a name="prizes" ui-sref="judging">Judging & Prizes</a>
+      <!--<a name="resources" ui-sref="resources">resources</a>-->
+    </div>
+</aside>
+
+<div class="container">
+  <div ui-view></div>
+</div>
+</body>
+
+</html>
