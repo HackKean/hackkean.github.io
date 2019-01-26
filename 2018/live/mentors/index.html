@@ -1,0 +1,17 @@
+<div ng-controller="mentors" class="container" id="main">
+  <h3> Mentors! </h3>
+  <p> How to spot mentors? Look for the leis! </p>
+  <br>
+  <div class="divTableBody">
+    <div class="divTableRow">
+      <div class="divTableCell"> <strong> Name </strong></div>
+      <div class="divTableCell"> <strong> Affiliation </strong></div>
+      <div class="divTableCell"> <strong> Expertise </strong></div>
+    </div>
+    <div class="divTableRow" ng-repeat="item in data.mentors">
+      <div class="divTableCell"> {{item.name}} </div>
+      <div class="divTableCell"><span class="event-title">{{item.affiliation}}</span></div>
+      <div class="divTableCell"> {{item.expertise}} </div>
+    </div>
+  </div>
+</div>

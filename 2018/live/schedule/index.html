@@ -1,0 +1,18 @@
+<div ng-controller="schedule" class="container" id="main">
+  <h3> April 4.7-4.8 </h3>
+  <div class="divTableBody">
+    <div class="divTableRow">
+      <div class="divTableCell"> <strong> Time </strong></div>
+      <div class="divTableCell"> <strong> Event </strong></div>
+      <div class="divTableCell"> <strong> Location </strong></div>
+    </div>
+    <div class="divTableRow" ng-repeat="item in data.schedule">
+      <div class="divTableCell"> {{item.time}} </div>
+      <div class="divTableCell"><span class="event-title">{{item.title}}</span>
+        <br>
+        <br> {{item.description}} </div>
+      <div class="divTableCell"> {{item.location}} </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,151 @@
+/* SPONSORSHIP & MENTORSHIP PAGES */
+
+section.sponsorship {
+  background-color: white;
+  color: #2E3044;
+  padding: 100px 0px 150px 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #5C6081;
+}
+
+.hackathon-photo {
+  width: 80%;
+  border-radius: 3px;
+  margin: 70px 0px;
+}
+
+p.description {
+  color: #2E3044;
+}
+
+th, td {
+  padding: 15px 50px 15px 0;
+  text-align: center;
+}
+
+th.perk, td.perk {
+  text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.sponsorship-tiers h5 {
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.tier {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  width: 27%;
+  float: left;
+  height: 100px;
+  margin-right: 35px;
+}
+
+.tier p {
+  color: #2E3044;
+  font-size: 0.9em;
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+span {
+  color: white;
+  padding: 8px 20px;
+}
+
+.bronze-wrapper {
+  background-color: rgba(55, 189, 239, 0.17);
+  padding-bottom: 40px;
+}
+
+#bronze {
+  background-color: rgba(55, 189, 239, 1);
+}
+
+.silver-wrapper {
+  background-color: rgba(7, 206, 194, 0.17);
+  padding-bottom: 90px;
+}
+
+#silver {
+  background-color: rgba(7, 206, 194, 1);
+}
+
+.gold-wrapper {
+  background-color: rgba(255, 201, 115, 0.17);
+  padding-bottom: 110px;
+}
+
+#gold {
+  background-color: rgba(255, 201, 115, 1);
+}
+
+td {
+  text-align: right;
+  width: 60px;
+  font-weight: 600;
+}
+
+td.perk {
+  width: 25vw;
+  font-weight: 500;
+}
+
+td.bronze-perk {
+  background-color: rgba(55, 189, 239, 0.2);
+}
+
+td.silver-perk {
+  background-color: rgba(7, 206, 194, 0.25);
+}
+
+td.gold-perk {
+  background-color: rgba(255, 201, 115, 0.25);
+}
+
+/* mobile */
+@media screen and (max-width: 500px) {
+  .sponsorship-tiers {
+    font-size: 0.85em;
+  }
+
+  .sponsorship-tiers {
+    margin-bottom: 88vh;
+  }
+
+  .tier {
+    margin-bottom: 2vh;
+    width: 100%;
+  }
+
+  .tier p {
+    padding-top: 10px;
+    padding-left: 25px;
+  }
+
+  .bronze-wrapper {
+    padding-bottom: 1vh;
+  }
+
+  .silver-wrapper {
+    padding-bottom: 5vh;
+  }
+
+  .gold-wrapper {
+    padding-bottom: 9vh;
+  }
+}
